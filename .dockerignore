@@ -1,0 +1,57 @@
+.env
+.gitignore
+docs/
+.docs/
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Ignore log files and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files
+*.o
+*.so
+*.a
+*.out
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore test results
+junit-xml/
+test-results/
+
+# Ignore build directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.iml
